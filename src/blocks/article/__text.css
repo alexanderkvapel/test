@@ -1,0 +1,15 @@
+.article__text a {
+  text-decoration: none;
+  text-shadow: 2px 2px 0 var(--accent-color, #d8e400);
+}
+
+.article__text a:hover {
+  border-bottom: 1px solid currentColor;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  
+  .article__text a {
+    transition: border-bottom 0.6s;
+  }
+}

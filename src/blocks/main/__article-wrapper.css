@@ -1,0 +1,4 @@
+.main__article-wrapper {
+  display: grid;
+  gap: 15px;
+}

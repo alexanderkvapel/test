@@ -1,0 +1,11 @@
+.header__logo {
+  inline-size: 30px;
+  block-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color, #121407);
+  border-radius: 50%;
+  color: inherit;
+  pointer-events: none;
+}

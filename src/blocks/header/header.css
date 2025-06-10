@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--text-color, #121407);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-block-end: 30px;
+}

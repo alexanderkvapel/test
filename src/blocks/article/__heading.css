@@ -1,0 +1,13 @@
+.article__heading {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  border-radius: 15px;
+  padding: 10px;
+  color: var(--bg-color, #9ea090);
+  font-size: var(--heading-font-size, 24px);
+  text-transform: uppercase;
+  background-color: var(--text-color, #121407);
+  block-size: 2em;
+}

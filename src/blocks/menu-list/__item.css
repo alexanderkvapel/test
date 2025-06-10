@@ -1,0 +1,23 @@
+.menu-list__item {
+  color: var(--bg-color, #121407);
+  text-transform: uppercase;
+}
+
+.menu-list__item:first-child {
+  list-style: none;
+}
+
+.menu-list__item a {
+  text-decoration: none;
+}
+
+.menu-list__item a:hover {
+  color: var(--accent-color, #d8e400)
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  
+  .menu-list__item a {
+    transition: color 0.6s;
+  }
+}

@@ -1,0 +1,9 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--text-color, #121407);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}

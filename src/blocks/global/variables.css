@@ -1,0 +1,9 @@
+:root {
+  --font: 'Fira Sans Condensed';
+  --heading-font-size: 24px;
+  --text-font-size: 16px;
+  --bg-color: #9ea090;
+  --heading-color: #9ea090;
+  --text-color: #121407;
+  --accent-color: #d8e400;
+}
